@@ -5,7 +5,7 @@ import pandas as pd
 import math
 
 
-def get_long_mom_nu(proc,event_id):
+def get_long_mom_nu(MET,proc,event_id):
     MW=80.301
     
     px_Nu=MET[proc]['pT'][event_id]*math.cos(MET[proc]['Phi'][event_id])
